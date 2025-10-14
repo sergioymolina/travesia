@@ -1,118 +1,881 @@
-<!doctype html>
-<html lang="en" class="h-100" data-bs-theme="light">
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Travesía Gastrobar</title>
-   
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Travesia Gastrobar, restaurante familiar en Caleruega, Burgos. </title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+</head>
 
-<link href="bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
-
+<body>
+  <div class="page-wrapper"> 
+  
     
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-bg-light">
+    <!-- Main Header-->
+    <header class="main-header header-down">
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner clearfix">
+                    <div class="top-left clearfix">
+                        <ul class="top-info clearfix">
+                            <li><i class="icon far fa-map-marker-alt"></i>Plaza Santo Domingo # 15, Caleruega, Burgos </li>
+                            <li><i class="icon far fa-clock"></i> Todos los días : 8.00 am a 10.00 pm</li>
+                        </ul>
+                    </div>
+                    <div class="top-right clearfix">
+                        <ul class="top-info clearfix">
+                            <li><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20quiero%20hacer%20una%20reservaci%C3%B3n.%20Los%20contacto%20desde%20su%20web."><i class="icon far fa-phone"></i> +34 613 85 92 23</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Upper -->
+        <div class="header-upper">        
+            <div class="auto-container">
+                <!-- Main Box -->
+                <div class="main-box clearfix">
+                    <!--Logo-->
+                    <div class="logo-box">
+                         <div class="logo"><a href="index.html" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."><img src="images/LogoTravesiaWhite.png" alt="image" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."></a></div>
+                    </div>
 
+                    <div class="nav-box clearfix">
+                        <!--Nav Outer-->
+                        <div class="nav-outer clearfix">         
+                            <nav class="main-menu">
+                                <ul class="navigation clearfix">
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#experiencia">Experiencia</a></li>
+                                    <li class="dropdown"><a href="#menu">Menú</a>
+                                        <ul>
+                                            <li><a href="#entradas">Entradas</a></li>
+                                            <li><a href="#fuertes">Platos fuertes</a></li>
+                                            <li><a href="#pizzas">Pizzas</a></li>
+                                            <li><a href="#burgers">Hamburguesas</a></li>
+                                            <li><a href="#vinos">Vinos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#catering">Catering</a></li>
+                                    <li><a href="#menu-catering">Menú eventos</a></li>                                   
+                                </ul>
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                        <!--Nav Outer End-->
+
+                        <div class="links-box clearfix">
+                            <div class="link link-btn">
+                                <a href="tel:613859223" class="theme-btn btn-style-one clearfix">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Reservas</span>
+                                        <span class="text-two">Reservas</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="link info-toggler">
+                                <button class="info-btn">
+                                    <span class="hamburger">
+                                        <span class="top-bun"></span>
+                                        <span class="meat"></span>
+                                        <span class="bottom-bun"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Hidden Nav Toggler -->
+                        <div class="nav-toggler">
+                            <button class="hidden-bar-opener">
+                                <span class="hamburger">
+                                    <span class="top-bun"></span>
+                                    <span class="meat"></span>
+                                    <span class="bottom-bun"></span>
+                                </span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header -->
     
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      
-    </div>
-  </header>
+    <!--Menu Backdrop-->
+    <div class="menu-backdrop"></div>
 
-  <main class="px-3">
-    <h1>Travesía Gastrobar.</h1>
-    <p class="lead">Estamos haciendo un sitio increíble.</p>
-  </main>
+    <!-- Hidden Navigation Bar -->
+    <section class="hidden-bar">
+        <!-- Hidden Bar Wrapper -->
+        <div class="inner-box">
+            <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
+            <div class="logo-box"><a href="index.html" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."><img src="images/LogoTravesiaWhite.png" alt="image" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."></a></div>
+            
+            <!-- .Side-menu -->
+            <div class="side-menu">
+                 <ul class="navigation clearfix">
+                    <li><a href="#inicio">Inicio</a>
+                    </li>
+                </ul>
+            </div><!-- /.Side-menu -->
+        
+        </div><!-- / Hidden Bar Wrapper -->
+    </section>
+    <!-- / Hidden Bar -->
 
-  <footer class="mt-auto text-white-50">
+    <!--Info Back Drop-->
+    <div class="info-back-drop"></div>
+    
+    <!-- Hidden Bar -->
+    <section class="info-bar">
+        <div class="inner-box">
+            <div class="cross-icon"><span class="far fa-close"></span></div>
+            <div class="image-box"><img src="images/fotos/travesia-gastrobar-caleruega-burgos (7).jpeg" alt="image" title=""></div>
+            <div class="logo-box"><a href="index.html" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."><img src="images/LogoTravesiaWhite.png" alt="image" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."></a></div>
 
-  </footer>
+            <h3>Visítanos</h3>
+            <ul class="info">
+                <li>Plaza Santo Domingo # 15,<br> Caleruega, Burgos</li>
+                <li>Lunes: 10:00 -23:00</li>
+                <li>Martes: Cerrado</li>
+                <li>Miércoles a Domingo: 10:00 - 23:00</li>
+                <li><a class="bk-no" href="https://maps.app.goo.gl/Q7QmAijqWrYBYLoR8" title="Deja tu reseña en Google">Ver en Google Maps</a></li>
+            </ul>
+            <div class="booking-info">
+                <div class="bk-no"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20quiero%20hacer%20una%20reservaci%C3%B3n.%20Los%20contacto%20desde%20su%20web.">Reservaciones: +34 613 85 92 23</a></div>
+            </div>
+        </div>
+    </section>
+    <!--End Hidden Bar -->
+
+    <section class="banner-section">
+
+        <!-- social link -->
+        <div class="banner-social-list">
+
+          <ul class="custom-ul">
+            <li> <a href="https://www.instagram.com/travesia_15"> @travesia_15 </a> </li>
+          </ul>
+
+        </div>
+
+        <!-- social link -->
+        <div class="banner-call">
+
+          <ul class="call-ul">
+            <li><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20quiero%20hacer%20una%20reservaci%C3%B3n.%20Los%20contacto%20desde%20su%20web.">Reservaciones: +34 613 85 92 23</a></li>
+          </ul>
+
+        </div>
+
+          <!-- Banner Inner Container -->
+          <div id="inicio" class="banner-container">
+            <div class="auto-container">
+
+                <!--  Text content moved above Swiper -->
+                <div class="content-box banner-text-top">
+                <div class="content">
+                  <div class="clearfix">
+                    <div class="inner">
+                      <h1>Deliciosa experiencia</h1>
+                      <div class="text">En Travesía Gastrobar ofrecemos un menú  <span class="theme_color">variado, de calidad, y con ingredientes frescos.</span></div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <!--  Slider image inside container -->
+                <div class="banner-slider slider-contained">
+                <div class="swiper-wrapper">
+                  <!--Slide Item-->
+                  <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/main-slider/slider-1.jpg);"></div>
+                  </div>
+                  <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/main-slider/slider-2.jpg);"></div>
+                  </div>
+                  <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/main-slider/slider-3.jpg);"></div>
+                  </div>
+                </div>
+
+                <div class="swiper-button-prev"><span class="fal fa-angle-left"></span></div>
+                <div class="swiper-button-next"><span class="fal fa-angle-right"></span></div>
+                </div>
+
+                <!--  location and time info -->
+                <div class="hero-info">
+                    <div class="top-bar-content">
+                      <div class="info-item">
+                        <span class="label" >VISÍTANOS :</span>Plaza Santo Domingo # 15 Caleruega, Burgos
+                      </div>
+                      <div class="separator">
+                        <img src="images/icons/star-element.svg" alt="separator">
+                      </div>
+                      <div class="info-item">
+                        <span class="label">HORARIOS :</span> Abrimos desde las 10:00
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+
+          <a href="menu/travesia-menu.pdf" class="book-btn">
+            <span class="icon"> <img src="images/resource/book-icon-1.png" alt="image" title="image"> </span>
+          </a>
+    </section>
+
+    <!--About Section-->
+    <section id="experiencia" class="about-section section-kt">
+        <div class="container-fluid">
+            <div class="title-box centered">
+                <div class="subtitle"><span>Travesía Gastrobar</span></div>
+
+                <h2>Acompaña tu experiencia en Caleruega con las  <span class="theme_color"> <img src="images/resource/tag-img1.png" alt="image" title="image"> entradas</span>, platos fuertes <span class="theme_color"> <img src="images/resource/tag-img2.png" alt="image" title="image"> Pizzas & hambuguesas</span> y  <span class="theme_color"> <img src="images/resource/tag-img3.png" alt="image" title="image"> nuestra selección de vinos. </span> </h2>
+            </div>
+
+            <div class="row clearfix">
+                <!--Col-->
+                <div class="text-col col-xl-3 col-lg-4 col-md-8 mx-auto">
+                    <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+
+                        <div class="text">Un espacio acogedor donde el buen sabor se une con la calidez familiar, invitándote a disfrutar y compartir momentos que se quedan en la memoria.</div>
+
+                        <div class="lower-link-box text-center">
+                            <a href="#menu" class="theme-btn btn-style-two clearfix">
+                                <span class="btn-wrap">
+                                    <span class="text-one">Ver menú</span>
+                                    <span class="text-two">Ver menú</span>
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Col-->
+            <div class="image-col col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                    <div class="floating-images ">
+                        <div class="abt-image1 parallax-scene-1"><img data-depth="0.50" src="images/resource/about1.jpg" alt="image"></div>
+                        <div class="abt-image2 parallax-scene-2"><img data-depth="0.50" src="images/resource/about2.jpg" alt="image"></div>
+                        <div class="abt-image3 parallax-scene-3"><img data-depth="0.90" src="images/resource/about3.jpg" alt="image"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--Menu Section-->
+    <section id="menu" class="menu-card-style-section section-kt">
+        <div class="auto-container">
+            <div class="menu-card-main">
+                <div class="top-pattern"> </div>
+                <div class="title-box centered">
+                    <div  class="title-badge"> <img src="images/resource/menu-title-badge.svg" alt="image" title="image"> </div>
+                    <h2 style="color: #5f521b">Nuestro menú</h2>
+                </div>
+
+                <!-- menu card corner images -->
+                <img class="menu-card-corner top-left" src="images/resource/menucard-corner-left-top.png" alt="image">
+                <img class="menu-card-corner top-right" src="images/resource/menucard-corner-right-top.png" alt="image">
+                <img class="menu-card-corner bottom-left" src="images/resource/menucard-corner-left-bottom.png" alt="image">
+                <img class="menu-card-corner bottom-right" src="images/resource/menucard-corner-right-bottom.png" alt="image">
+            
+                <!-- entradas -->
+                <div id="entradas" class="menu-card-style alternate">
+                    <div class="row clearfix">
+                        <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="image"><img src="images/resource/alitas-patatas.jpg" alt="image"></div>
+                            </div>
+                        </div>
+
+                        <div  class="menu-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="title-box">
+                                <h3 style="color: #5f521b">Entradas</h3>
+                                </div>
+
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Calamares a la romana con mézclum de lechugas y Alioli</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€6</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Torreznos de soria crocantes con Limón</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€8</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Fingers de pollo con dos salsas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€6</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Choripapa y salsa brava</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€6</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Orejas de cerdo guisadas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€7</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block--> 
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Alitas barbacoa con patatas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€12</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fuertes -->
+                <div id="fuertes" class="menu-card-style">
+                    <div class="row clearfix">
+                        <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="image"><img src="images/resource/maindish1.jpg" alt="image"></div>
+                            </div>
+                        </div>
+
+                        <div class="menu-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="title-box ">
+                                <h3 style="color: #5f521b">Platos fuertes</h3>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Ribeye steak entrecot de ternera 350g Aprox</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€24</span></div></div>
+                                        <div class="text desc">(Servido con gajos de papa, verduras parrilladas y chimichurri)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Costillas de cerdo en salsa barbacoa 400g Aprox</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€16</span></div></div>
+                                        <div class="text desc">(Servido con papa a la francesa y ensalada de temporada)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Parrillada para dos personas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€20</span></div></div>
+                                        <div class="text desc">(Churrasco, muslos de pollo, costillas de cerdo, chorizo y papa.)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Contramuslos parrillados</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€16</span></div></div>
+                                        <div class="text desc">(Servido con papa a la francesa y ensalada de temporada)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Ensalada de la casa</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€12</span></div></div>
+                                        <div class="text desc">(Mézclum de lechugas, rugulas, tomates cherrie, queso maduro, aceitunas)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Ensalada de burrata de reducción de vinagre balsámico</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€15</span></div></div>
+                                        <div class="text desc">(Mezclum de lechugas frescas, gajos de naranja y burrata fresca)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Rodajas de Salmón parrilladas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€20</span></div></div>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- pizzas -->
+                <div id="pizzas" class="menu-card-style alternate">
+                    <div class="row clearfix">
+                        <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="image"><img src="images/resource/dessert1.jpg" alt="image"></div>
+                            </div>
+                        </div>
+
+                        <div class="menu-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="title-box">
+                                <h3 style="color: #5f521b">Pizzas</h3>
+                                </div>
+
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Pizza de jamón serrano y rúgulas</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                        <div class="text desc">(Hecha con masa de triple fermentación y leudado lento)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Pizza de tres quesos</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                        <div class="text desc">(Selección de quesos maduros y masa de triple fermentación)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Pizza de pepperoni</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€8</span></div></div>
+                                        <div class="text desc">(Hecha con masa de triple fermentación y leudado lento)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Pizza de chorizo picante y tomaticos</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                        <div class="text desc">(Selección de chorizo picante y cherries)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Pizza de aceitunas negras y champiñón</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                        <div class="text desc">(Setas frescas y aceituna negra)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- burgers -->
+                <div id="burgers" class="menu-card-style">
+                    <div class="row clearfix">
+                        <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="image"><img src="images/resource/burger+.jpg" alt="image"></div>
+                            </div>
+                        </div>
+
+                        <div class="menu-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="title-box ">
+                                <h3 style="color: #5f521b">Hamburguesas</h3>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Hamburguesa de la casa</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€10</span></div></div>
+                                        <div class="text desc">(Pan casero a base papa, carne de vacuno,vegetales, queso chedar, bacon, cebollas crocantes y gagos de papa)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Hamburguesa de pollo</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                        <div class="text desc">(Pan casero a base papa, vegetales, queso chedar, cebollas crocantes y gagos de papa)</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Perro caliente</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€8</span></div></div>
+                                        <div class="text desc">(Salchicha Frankfurt , queso y crocantes de cebolla. Acompañado de papas francesa)</div>
+                                    </div>
+                                </div>
+                                                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vinos -->
+                <div id="vinos" class="menu-card-style alternate">
+                    <div class="row clearfix">
+                        <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="image"><img src="images/resource/vinos.jpg" alt="image"></div>
+                            </div>
+                        </div>
+
+                        <div class="menu-col col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="title-box">
+                                <h3 style="color: #5f521b">Vinos</h3>
+                                </div>
+                                <h5 style="color: #5f521b; padding-bottom: 30px;">Copeo</h5>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Vino Callejón</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€1.8</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Vino Verdejo Rueda</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€1.4</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Vino rosado Piripintao</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€1.4</span></div></div>
+                                    </div>
+                                </div>
+                                <h5 style="color: #5f521b; padding-bottom: 30px;">Botella</h5>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Vino blanco Monteabellón</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€9</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Vino Monteabellón</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€11</span></div></div>
+                                        <div class="text desc">5 meses de barrica</div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Valreinas crianza</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€14</span></div></div>
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Valquemao</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€11</span></div></div>
+                                        <div class="text desc">6 meses de barrica</div>                                    
+                                    </div>
+                                </div>
+                                <!--Block-->
+                                <div class="dish-block">
+                                    <div class="inner-box">
+                                        <div class="title clearfix"><div class="ttl clearfix"><h6 style="color: #5f521b">Valquemao</h6></div> <span class="menu-list-line"> </span> <div class="price"><span style="font-weight: 800;">€20</span></div></div>
+                                        <div class="text desc">13 meses de barrica</div>                                    
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--chef Section 1-->
+    <section id="catering" class="chef-section-1 section-kt">
+        <div class="auto-container">
+
+            <div class="row clearfix">
+                <!--Block-->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="title-box">
+                        <div class="subtitle"><span>servicio para eventos</span></div>
+                        <h2>Catering</h2>
+                        <p> ¿Tienes un evento? Conoce nuestro servicio de catering donde cuidamos cada detalle para que tu evento se sienta tan especial como su sabor.</p>
+                        <div class="link-box">
+                            <a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..." class="theme-btn btn-style-two clearfix">
+                                <span class="btn-wrap">
+                                    <span class="text-one">Reservas para catering</span>
+                                    <span class="text-two">Reservas para catering</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="chef-image image1 parallax-scene-1 " >
+                        <img data-depth="0.15" src="images/resource/mainchef1.jpg" alt="image">
+                    </div>
+                    <div class="round-stamp">
+                        <img data-depth="0.50" class="stamp_icon" src="images/resource/chefcap.png" alt="image">
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="chef-image image2 parallax-scene-2">
+                        <img data-depth="0.50" src="images/resource/mainchef2.jpg" alt="image">
+                    </div>
+                    <div class="chef-image image3 parallax-scene-3">
+                        <img data-depth="0.50" src="images/resource/mainchef3.jpg" alt="image">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Recnt Updates Section-->
+    <section id="menu-catering" class="news-section section-kt">
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>Menú para eventos</span></div>
+                <h2>Menú Catering</h2>
+            </div>
+            <div class="row justify-content-center clearfix">
+                <!--Block-->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/news-1.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <div class="cat" style="color: #fff">Brunch</div>
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Fruta, yogurt griego, pan, parfait, tortas dulces.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Block-->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/news-2.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <div class="cat" style="color: #fff">Desayunos</div>
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Tostadas, madelenas, croissants, Tortilla de patata, cinamon rolls.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Block-->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/news-3.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <div class="cat" style="color: #fff">Comidas</div>
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Pregunta por nuestro menú de temporada.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="news-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/tapas.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Tapas</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="news-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/cenas.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Cenas</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="news-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/tablas.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Tablas de quesos y jamones maduros</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+
+                <!--Block-->
+                <div class="news-block col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            
+                            <div class="image"><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..."><img src="images/resource/vermuth.jpg" alt="image"></a></div>
+                            <div class="over-content">
+                                <h4><a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento...">Vermuth para grupos con canapés</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+
+            </div>
+            
+            <div class="lower-link-box text-center">
+                <a href="https://api.whatsapp.com/send?phone=34613859223&text=Hola%20Traves%C3%ADa%20Gastrobar,%20me%20gustar%C3%ADa%20cotizar%20sus%20servicios%20de%20catering%20para%20un%20evento..." class="theme-btn btn-style-two clearfix">
+                    <span class="btn-wrap">
+                        <span class="text-one">Pide cotización para catering</span>
+                        <span class="text-two">Pide cotización para catering</span>
+                    </span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!--section class="ig-post-section section-kt">
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>follow us</span></div>
+                <h2>Instagram</h2>
+            </div>
+            <div class="row justify-content-center clearfix">
+                <div class="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <a href="#"><img src="images/resource/insta1.jpg" alt="image"></a>
+                    </div>
+                </div>
+                <div class="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <a href="#"><img src="images/resource/insta2.jpg" alt="image"></a>
+                    </div>
+                </div>
+                <div class="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <a href="#"><img src="images/resource/insta3.jpg" alt="image"></a>
+                    </div>
+                </div>
+                <div class="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <a href="#"><img src="images/resource/insta4.jpg" alt="image"></a>
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            
+        </div>
+    </section-->
+
+    <!--Main Footer-->
+    <footer class="main-footer">
+        <div class="upper-section section-kt">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Footer Col-->
+                    <div class="footer-col info-col col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="content">
+                                <div class="logo"><a href="#" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."><img src="images/LogoTravesiaWhite.png" alt="image" title="Travesía Gastrobar, restaurante familiar en Caleruega, Burgos."></a></div>
+                                <div class="info">
+                                    <h6 style="color: #fff">Visítanos</h6>
+                                    <ul>
+                                        <li>Plaza Santo Domingo # 15, Caleruega, Burgos</li>
+                                        <li>Lunes: 10:00 -23:00</li>
+                                        <li>Martes: Cerrado</li>
+                                        <li>Miércoles a Domingo: 10:00 - 23:00</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="separator"><span> </span> </div>
+                                <div class="newsletter">
+                                    <h4><a href="https://maps.app.goo.gl/mFWM6WzYxhdq4sqM9">Ver ubicación en Google Maps</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Footer Col-->
+                    <div class="footer-col footer-image-col col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-image">
+                            <img src="images/resource/footer-img-1.jpg" alt="image">
+                        </div>
+                    </div>
+                    <!--Footer Col-->
+                    <div class="footer-col footer-image-col last col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-image">
+                            <img src="images/resource/footer-img-2.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- last footer -->
+        <div class="bottom_footer">
+        <!-- container start -->
+          <div class="auto-container">
+            <!-- row start -->
+            <div class="row clearfix">
+              <div class="col-lg-6 col-md-4 col-sm-12">
+                  <p style="color: #fff">© 2025 Travesía Gastrobar, restaurante familiar en Caleruega, Burgos.</p>
+              </div>
+
+
+              <div class="col-lg-6 col-md-4 col-sm-12">
+                  <p style="color: #fff" class="developer_text">Diseño por <a href="#" target="blank">Origen Studio</a></p>
+              </div>
+            </div>
+          <!-- row end -->
+          </div>
+          <!-- container end -->
+        </div>
+    </footer>
+
 </div>
+<!--End pagewrapper--> 
 
-    </body>
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]--> 
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/custom-script.js"></script>
+</body>
+
 </html>
